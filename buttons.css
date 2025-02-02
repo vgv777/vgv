@@ -1,0 +1,49 @@
+
+@import url("//cdn.web-fonts.ge/fonts/bpg-banner-extrasquare-caps/css/bpg-banner-extrasquare-caps.min.css");
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tavi{
+  background-color: blue;
+  height: 100px;
+
+}
+.tekst{
+  display: flex;
+  justify-content: space-evenly;
+align-items: center;
+padding-top: 20px;
+font-family: "BPG Banner ExtraSquare Caps", sans-serif;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "BPG Banner ExtraSquare Caps", sans-serif;
+
+}
+.main>div>button{
+  box-shadow: none;
+  width: 10em; /* Ширина кнопки */
+  height: 3em;
+  border: none;
+  color: rgb(11, 246, 15);
+  background-color: rgb(68, 20, 20);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+ /*  padding-bottom: 10px; */
+  
+  justify-content: center;
+ /*  padding-top: 10px; */
+ cursor: pointer;
+}
+.main>div>button:hover{
+  background-color: blue;
+  color: black;}
